@@ -1,0 +1,67 @@
+/*==================== ABOUT ====================*/
+.home{
+    // background-color:hsl(var(--hue-color),50%,55%);
+    width:100%;
+  }
+  .home__img{
+    width:400px;
+    border-radius:.5rem;
+    justify-self: center;
+    align-self: center;
+  }
+  .home__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+    
+  }
+  .home__description{
+    color:hsl(var(--hue-color),69%,25%);
+  
+  }
+  .home__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color:hsl(var(--hue-color),8%,95%);
+  }
+  .home__info-name{
+    font-size:var(--smaller-font-size);
+  }
+  .home__info-title,
+  .home__info-name{
+    display:block;
+    text-align:center;
+    color:hsl(var(--hue-color),8%,95%);
+  
+  
+  }
+  .home__buttons{
+    display:flex;
+    justify-content: center;
+    
+  }
+
+  .home-button:hover{
+    background-color: hsl(var(--hue-color),55%,40%);
+  
+  }
+  .home-button{
+    background-color: #524978;
+    color:white;
+    margin-right:2rem;
+    margin-top:5rem;
+    padding:1rem 2rem 1rem 2rem;
+    font-weight:bolder;
+    border-radius: 0.5rem;
+  
+  }
+  .butt-selection{
+    display: flex;
+    margin-left: 0;
+    // padding:1rem 1rem 1rem 1rem;
+
+    // margin:1rem 1rem 1rem 1rem;
+    
+  }
+
+  

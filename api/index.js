@@ -6,8 +6,7 @@ import postRoutes from "./routes/posts.js"
 import authRoutes from "./routes/auth.js"
 import multer from "multer"
 import mailgun from "mailgun-js"
-// import * as ailgun from 'mailgun-js';
-// import dotenv from "dotenv"
+
 import * as dotenv from 'dotenv'
 dotenv.config();
 

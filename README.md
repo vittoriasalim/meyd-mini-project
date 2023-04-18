@@ -54,7 +54,7 @@ Full-Stack mini-project app
 
 If you want to contact me, you can reach me through below handles.
 
-[![Gmail](https://img.shields.io/badge/Gmail-0077B5?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/#inbox?compose=new)
+[![Gmail](https://img.shields.io/badge/Gmail-0077B5?style=for-the-badge&logo=gmail&logoColor=white)]([https://mail.google.com/mail/u/0/#inbox?compose=new](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbkZdLrVlKDlcNDJPXgwsxNdVMbwFTdKNqLNwBGXwPlLDTgBKhwcWdchGQNBDcjVnFmg))
 
 © 2023 Vittoria Salim
 

@@ -29,19 +29,19 @@ Full-Stack mini-project app
     - send job request and bid via email
 
 ## Home Page 🙈 :
-![home](./home.png)
+![home](./image_page/home.png)
 
 ## Post Job 🙈 :
-![post](./post_job.png)
+![post](./image_page/post_job.png)
 
 ## View Job 🙈 :
-![view](./view_jobs.png)
+![view](./image_page/view_jobs.png)
 
 ## Submission Job 🙈 :
-![view](./submission.png)
+![view](./image_page/ubmission.png)
 
 ## Send Job Request 🙈 :
-![view](./send_email.png)
+![view](./image_page/send_email.png)
 
 <h2>📬 Contact</h2>
 

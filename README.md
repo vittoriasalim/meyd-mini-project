@@ -16,6 +16,7 @@ Full-Stack mini-project app
 ![MySQL](https://img.shields.io/badge/MySQL-0077B5?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 
 **Cloud Storage:**
+
 ![ClearDBMySQL](https://img.shields.io/badge/ClearDB-0078D4?style=for-the-badge&logo=clearDB&logoColor=white)
 
 **Deployed On:**

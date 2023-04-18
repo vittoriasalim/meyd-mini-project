@@ -15,7 +15,13 @@ Full-Stack mini-project app
 ![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-0077B5?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 
+**Cloud Storage:**
+![ClearDBMySQL](https://img.shields.io/badge/ClearDB-0078D4?style=for-the-badge&logo=clearDB&logoColor=white)
 
+**Deployed On:**
+
+![heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![netlify](https://img.shields.io/badge/Netlify-blue?style=for-the-badge&logo=netlify&logoColor=white)
 
 ## 🚀 Features
 

@@ -2,6 +2,8 @@
 
 Full-Stack mini-project app
 
+[Visit Now](https://main--meydit.netlify.app/) 🚀
+
 ## 🖥️ Tech Stack
 
 **Frontend:**

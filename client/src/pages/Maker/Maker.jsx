@@ -1,10 +1,14 @@
-import React, { useEffect } from "react";
+import {React, useEffect } from "react";
 import "./maker.scss";
+
 // import { useState } from 'react'
-import axios from "axios";
+
+import {axiosInstance} from "../../config.js";
 import {Link, useLocation } from "react-router-dom";
 // import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
+
+
 
 const Maker = () => {
 
@@ -24,7 +28,8 @@ const Maker = () => {
     try {
       e.preventDefault();
       
-      const res = await axios.post(`/posts/filter`, inputs);
+      const res = await axiosInstance.post(`/posts/filter`, inputs);
+
       setPosts(res.data);
  
     } catch (err) {
@@ -37,9 +42,12 @@ const Maker = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`/posts/`);
-
+        const res = await axiosInstance.get(`/posts/`);
+   
+        console.log(res);
+        console.log(res.data);
         setPosts(res.data);
+       
     
       } catch (err) {
         console.log(err);
@@ -59,16 +67,12 @@ const Maker = () => {
               <option value="Dress">Dress</option>
               <option value="Ethnic Wear">Ethnic Wear</option>
         </select>
-       
-        
-        
         <input type="button" onClick={handleSubmit} className="filter-butt"value="FILTER"></input>
-      
-
-        
       </form>
       <div className="jobs" id="jobs">
-        {post.map((d) => {
+        
+
+      {post.map((d) => {
           return (
             <div className="jobs__item">
               <div className="jobs__column jobs__column--left">
@@ -107,7 +111,7 @@ const Maker = () => {
             
                   <br></br>
                   <br></br>
-                  {/* <p className="jobs__details-item">{d.description}</p> */}
+              
                 </div>
               </div>
               <div className="button-container">
@@ -123,6 +127,8 @@ const Maker = () => {
             </div>
           );
         })}
+
+
       </div>
     </div>
   );

@@ -2,10 +2,11 @@ import { React, useEffect } from "react";
 import { useLocation , useNavigate} from "react-router-dom";
 import { useState } from "react";
 import "./maker.scss";
-import axios from "axios";
+import {axiosInstance} from "../../config.js";
 import ReactQuill from "react-quill";
 import 'react-quill/dist/quill.snow.css';
 import emailjs from 'emailjs-com';
+
 
 
 
@@ -48,7 +49,7 @@ function Submission() {
         navigate("/success-request")
     
       }, error => {
-        // console.log('FAILED...', error);
+       
         setError("Error :"+error);
       });
   }
@@ -58,7 +59,7 @@ function Submission() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`/posts/${postId}`);
+        const res = await axiosInstance.get(`/posts/${postId}`);
         setJob(res.data);
   
       } catch (err) {
@@ -75,7 +76,7 @@ function Submission() {
       <div className="jobs" id="jobs">
         <div className="jobs__item">
           <div className="jobs__column ">
-            <img src={`/upload/${post.images}`} className="sample_img "></img>
+            <img src={`https://meydit-project.herokuapp.com/images/${post.images}`} className="sample_img "></img>
 
             <div className="jobs__info">
               <h5 className="home_heading">JOB ID NUMBER # {post.id}</h5>

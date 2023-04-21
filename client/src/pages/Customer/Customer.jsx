@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import "./Customer.scss"
-import axios from 'axios'
+import {axiosInstance} from "../../config.js";
 
 const Customer = () => {
   const [inputs, setInputs] =  useState({
@@ -26,10 +26,10 @@ const Customer = () => {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const res = await axios.post("/upload", formData);
+      const res = await axiosInstance.post(`/upload`, formData);
       return res.data;
     } catch (err) {
-      setError(err.response.data)
+      setError(err.response);
       console.log(err);
     }
   };
@@ -45,12 +45,14 @@ const Customer = () => {
     e.preventDefault();
   
     const imgUrl = await upload();
+    console.log(imgUrl)
     inputs.images = imgUrl;
     setInputs({...inputs});
+    console.log(inputs)
 
     try{
   
-      await axios.post("/auth/upload", inputs)
+      await axiosInstance.post("/auth/upload", inputs)
 
       navigate("/success")
 

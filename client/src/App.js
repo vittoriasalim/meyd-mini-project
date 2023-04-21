@@ -4,13 +4,13 @@ import {
   Route,
   Outlet
 }from "react-router-dom";
-import Customer from "./pages/Customer/Customer"
-import Home from "./pages/Home/Home"
-import Maker from "./pages/Maker/Maker"
-import Submission from "./pages/Maker/Submission"
-import Footer from "./pages/Footer/Footer";
-import Success from "./pages/Success/Success";
-import SuccessRequest from "./pages/Success/success-request";
+import Customer from "./pages/Customer/Customer.jsx"
+import Home from "./pages/Home/Home.jsx"
+import Maker from "./pages/Maker/Maker.jsx"
+import Submission from "./pages/Maker/Submission.jsx"
+import Footer from "./pages/Footer/Footer.jsx";
+import Success from "./pages/Success/Success.jsx";
+import SuccessRequest from "./pages/Success/success-request.jsx";
 import "./style.scss"
 const Layout = () => {
   return(

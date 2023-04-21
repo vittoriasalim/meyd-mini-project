@@ -1,4 +1,4 @@
-# Meyd-mini-project
+# Meyd-mini-project : pre-interview test evaluation
 
 Full-Stack mini-project app
 

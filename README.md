@@ -47,7 +47,7 @@ Full-Stack mini-project app
 ![view](./image_page/view_jobs.png)
 
 ## Submission Job 🙈 :
-![view](./image_page/ubmission.png)
+![view](./image_page/submission.png)
 
 ## Send Job Request 🙈 :
 ![view](./image_page/send_email.png)

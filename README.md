@@ -1,4 +1,4 @@
-# Meyd-mini-project : pre-interview test evaluation
+# Meyd-mini-project : pre-interview test submission (vittoria)
 
 Full-Stack mini-project app
 
